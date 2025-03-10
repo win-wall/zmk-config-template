@@ -10,6 +10,7 @@
          zephyr,display = &oled;
          zmk,kscan = &kscan0;
          zmk,matrix-transform = &default_transform;
+         zmk,underglow = &led_strip;
      };
      kscan0: kscan0 {
          compatible = "zmk,kscan-gpio-matrix";
