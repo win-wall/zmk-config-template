@@ -13,10 +13,6 @@
  #include <dt-bindings/led/led.h>
 #define DEFAULT 0-base
 
-
-/* NOTE: At the time of the creation of this keymap, there are no specified codes for 'eisuu' and 'kana' input in ZMK.
-However, 'LANG1' and 'LANG2' are fully-functioning candidates for 'kana' and 'eisuu' input respectively.
-As such, those are in use within the default layer at this time.*/
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
@@ -71,7 +67,7 @@ As such, those are in use within the default layer at this time.*/
        &kp TAB     &kp Q    &kp W    &kp E    &kp R    &kp T          &kp Y    &kp U    &kp I    &kp O    &kp P    &kp LBKT
        &kp LCTRL   &kp A    &kp S    &kp D    &kp F    &kp G          &kp H    &kp J    &kp K    &kp L    &kp SEMI &kp SQT
        &kp LSHFT   &kp Z    &kp X    &kp C    &kp V    &kp B          &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH &mt EQUAL
-                            &kp LALT &kp LALT &kp RET                 &kp SPACE &kp LALT &kp LALT
+                                     &kp LALT &kp LALT &kp RET        &kp SPACE &kp LALT &kp LALT
                      >;
               };
        };
