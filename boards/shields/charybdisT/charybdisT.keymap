@@ -51,6 +51,35 @@
     };
 };
 / {
+        macros {
+            double_yank: double_yank {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings = <&kp Y &kp Y>;
+                label = "DOUBLE_YANK";
+            };
+
+            yank_end_line: yank_end_line {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings = <&kp Y &kp DOLLAR>;
+                label = "YANK_END_LINE";
+            };
+
+            yank_all_file: yank_all_file {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings = <&kp Y &kp LS(G)>;
+                label = "YANK_ALL_FILE";
+            };
+
+            yank_another_end_file: yank_another_end_file {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings = <&kp Y &kp G &kp G>;
+                label = "YANK_ANOTHER_END_FILE";
+            };
+    };
        keymap {
               compatible = "zmk,keymap";
 
