@@ -101,7 +101,7 @@
               NAV {
                 bindings = <
     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-    &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(R)  &kp LC(C)  &kp UP  &kp LC(V)  &kp LC(X)  &kp LC(U)  
+    &trans  &bt BT_CLR  &trans  &trans  &trans  &trans  &kp LC(R)  &kp LC(C)  &kp UP  &kp LC(V)  &kp LC(X)  &kp LC(U)  
     &trans  &kp LSHFT  &kp LCTRL  &kp LGUI  &kp LALT  &trans  &kp CAPS  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  
     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp END  &trans  &trans  &trans  
                     &trans  &trans  &trans  &trans  &mo 2  &trans
